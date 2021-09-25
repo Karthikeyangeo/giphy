@@ -51,7 +51,7 @@ function fun()
         catch(err)
         {
             console.log(err.message);
-            output =`<h2>Try another Word</h2>`
+            output =`<h2 style="color:Red">Try another Word</h2>`
             gif_div.innerHTML=output;
         }
     }
